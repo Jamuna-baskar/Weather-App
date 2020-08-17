@@ -4,9 +4,6 @@ height: 630px;">
     <input  type="text" id="name" name="city" placeholder="Enter the city name here.." ngModel> 
     <button type="submit" class="btn btn-primary">Submit</button>
 </form >
-<form (submit)="onSubmit()">
-    <input [(ngModel)]="playerName">
- </form>
 <div id="divWeatherMain"> 
     <div *ngIf="WeatherData.isDay" class="weatherWidgetRow">
         <i class="fas fa-3x fa-sun sun"></i>  
